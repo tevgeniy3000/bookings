@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
+	"github.com/tevgeniy3000/bookings/internal/config"
+	"github.com/tevgeniy3000/bookings/internal/handlers"
+	"github.com/tevgeniy3000/bookings/internal/render"
 	"log"
 	"net/http"
 	"time"
-
-	"github.com/tevgeniy3000/bookings/pkg/config"
-	"github.com/tevgeniy3000/bookings/pkg/handlers"
-	"github.com/tevgeniy3000/bookings/pkg/render"
 
 	"github.com/alexedwards/scs/v2"
 )
